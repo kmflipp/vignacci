@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 38,
+    "uniqCompNum": 35,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -46,11 +46,6 @@
             "Theme"
           ],
           "_name": "header1",
-          "_styles": {
-            ".mbr-section-lead": {
-              "color": "#c1c1c1"
-            }
-          },
           "_anchor": "header1-e",
           "_params": {
             "parallax": true,
@@ -73,7 +68,12 @@
           },
           "title": "Agriturismo Vignacci<br><span style=\"font-weight: normal;\">Azienda Agricola</span>",
           "text": "Seleziona la tua lingua -&nbsp;Select your language -&nbsp;Whalen Sie Ihre sprache",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"home.html\" data-toolbar=\"-mbrBtnMove\">Italiano</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"home.en.html\" data-toolbar=\"-mbrBtnMove\">English</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"home.de.html\" data-toolbar=\"-mbrBtnMove\">Deutsch</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"home.html\" data-toolbar=\"-mbrBtnMove\">Italiano</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"home.en.html\" data-toolbar=\"-mbrBtnMove\">English</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"home.de.html\" data-toolbar=\"-mbrBtnMove\">Deutsch</a> ",
+          "_styles": {
+            ".mbr-section-lead": {
+              "color": "#c1c1c1"
+            }
+          }
         }
       ]
     },
@@ -174,14 +174,6 @@
             "Theme"
           ],
           "_name": "msg-box5",
-          "_styles": {
-            "H3": {
-              "color": "#ffffff"
-            },
-            "P": {
-              "color": "#ffffff"
-            }
-          },
           "_anchor": "msg-box5-7",
           "_params": {
             "imageSize": "60",
@@ -228,13 +220,7 @@
           },
           "title": "Ospitalità Turistica",
           "text": "L' Agriturismo Vignacci nasce nel 1999 forte della storica azienda agricola appartenuta ai nostri avi.<br>Già nel 1920 coltivavano viti, olivi e allevavano bestiame.<br>Oggi forti di decenni di esperienza siamo lieti di mostrarvi quanto siamo riusciti a conservare in fatto di storia, cultura e tradizione!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"ospitalita_turistica.html\" data-toolbar=\"-mbrBtnMove\">Entra</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box5",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"ospitalita_turistica.html\" data-toolbar=\"-mbrBtnMove\">Entra</a>",
           "_styles": {
             "H3": {
               "color": "#ffffff"
@@ -242,7 +228,13 @@
             "P": {
               "color": "#ffffff"
             }
-          },
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
           "_anchor": "msg-box5-8",
           "_params": {
             "imageSize": "60",
@@ -289,7 +281,15 @@
           },
           "title": "La Bottega del Contadino",
           "text": "Non poteva mancare una bottega all'interno del borgo di Suvereto dove abbiamo la possibilità di presentarvi i prodotti che l'azienda agricola produce ma non solo!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"bottega_contadino.html\" data-toolbar=\"-mbrBtnMove\">Entra</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"bottega_contadino.html\" data-toolbar=\"-mbrBtnMove\">Entra</a>",
+          "_styles": {
+            "H3": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          }
         },
         {
           "_styles": {
@@ -303,7 +303,7 @@
           "_name": "header3",
           "_anchor": "header3-h",
           "_params": {
-            "paddingTop": "3",
+            "paddingTop": 1,
             "paddingBottom": 1,
             "bgColor": "#b8ede2",
             "showMeta": false
@@ -372,93 +372,6 @@
       },
       "components": [
         {
-          "_inherit": "menu",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.75rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#00a885!important"
-            }
-          },
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-z",
-          "_params": {
-            "bgColor": "#282828",
-            "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo_vignacci.gif",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "main.html",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"home.html\"><span class=\"mbri-left mbr-iconfont mbr-iconfont-btn\"></span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ospitalita_turistica.html#header3-l\">Appartam\u001benti</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ospitalita_turistica.html#pricing-table1-u\">Prezzi</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ospitalita_turistica.html#form1-v\">Prenotazione</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Dove siamo</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
-        },
-        {
           "_tags": [
             "Theme"
           ],
@@ -468,7 +381,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/ulena_grano_vignacci-2000x1500.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/bottega_contadino_ulena_vignacci-2000x1329.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -485,27 +398,7 @@
           },
           "title": "La Bottega del Contadino",
           "text": "Fiera contadina in opero nell'azienda agricola Vignacci, Ulena Barsotti ha dato alla vita \"La Bottega del Contadino\", un luogo dove tutte le persone che girano per il borgo di Suvereto possono approfittare dei frutti di una coltivazione biologica (frutta e verdura) e dei prodotti di animali allevati in maniera tradizionale.<br><br>Inoltre le amicizie strette con altri contadini danno la possibilità ai clienti di assaporare quanto di più variegato il territorio può offrire.<br><br>Di seguito è possibile trovare news, ricette, i cavalli di battaglia de \"La Bottega del Contadino\" e la come vengono preparati i prodotti in vendita.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"bottega_contadino.html#header3-10\" data-toolbar=\"-mbrBtnMove\">News</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"bottega_contadino.html#gallery3-11\" data-toolbar=\"-mbrBtnMove\">Gallery</a>    <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Dove si trova la bottega?</a> "
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-10",
-          "_params": {
-            "paddingTop": "3",
-            "paddingBottom": "0",
-            "bgColor": "#b8ede2",
-            "showMeta": false
-          },
-          "title": "News direttamente da Facebook",
-          "meta": "By John Smith posted July 20, 2016"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"bottega_contadino.html#feed-y\" data-toolbar=\"-mbrBtnMove\">News</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"bottega_contadino.html#feed-y\" data-toolbar=\"-mbrBtnMove\">I nostri contadini</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Le Ricette</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Cavalli di battaglia</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Preparazione dei prodotti</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Dove si trova la bottega?</a> "
         },
         {
           "alias": "social-feed",
@@ -515,7 +408,7 @@
           "_name": "feed",
           "_anchor": "feed-y",
           "_params": {
-            "paddingTop": "0",
+            "paddingTop": "1",
             "paddingBottom": "1",
             "youtube": "",
             "facebook": "https://www.facebook.com/La-Bottega-del-Contadino-az-ag-Vignacci-606109136181443/",
@@ -531,109 +424,6 @@
             "overlayColor": "#7e9b9f"
           },
           "loadsvg": "@ADDONS_PATH@/social-feed/feed/assets/loading.svg"
-        },
-        {
-          "_inherit": "gallery1",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery3",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "images": [
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/ulena-vignacci-bottega-contadino-gallery-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/ulena_vignacci_bottega_contadino_gallery-2000x1500.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/ulena-vignacci-bottega-contadino-gallery-1-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/ulena_vignacci_bottega_contadino_gallery-1-2000x1500.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/ulena-vignacci-bottega-contadino-gallery-2000x2666-800x1066.jpg",
-                "image": "@PROJECT_PATH@/assets/images/ulena_vignacci_bottega_contadino_gallery-2000x2666.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/ulena-vignacci-bottega-contadino-gallery-2-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/ulena_vignacci_bottega_contadino_gallery-2-2000x1500.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/ulena-vignacci-bottega-contadino-gallery-3-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/ulena_vignacci_bottega_contadino_gallery-3-2000x1500.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/ulena-vignacci-bottega-contadino-gallery-4-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/ulena_vignacci_bottega_contadino_gallery-4-2000x1500.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/ulena-vignacci-bottega-contadino-gallery-5-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/ulena_vignacci_bottega_contadino_gallery-5-2000x1500.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/ulena-vignacci-bottega-contadino-gallery-6-2000x1500-800x600.jpg",
-                "image": "@PROJECT_PATH@/assets/images/ulena_vignacci_bottega_contadino_gallery-6-2000x1500.jpg",
-                "caption": "Type caption here",
-                "active": true
-              }
-            ],
-            "spacing": 1,
-            "showText": false,
-            "filter": false,
-            "bgColor": "#000000",
-            "filterBgColor": true,
-            "fullWidth": true,
-            "showBullets": true
-          },
-          "_anchor": "gallery3-11",
-          "articleLayout": false,
-          "allItem": "All"
         }
       ]
     },
@@ -697,7 +487,7 @@
             }
           },
           "_name": "ext.menu",
-          "_anchor": "ext_menu-z",
+          "_anchor": "ext_menu-i",
           "_params": {
             "bgColor": "#282828",
             "fontSize": 0.75,
@@ -728,7 +518,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"home.html\"><span class=\"mbri-left mbr-iconfont mbr-iconfont-btn\"></span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ospitalita_turistica.html#header3-l\">Appartam\u001benti</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ospitalita_turistica.html#pricing-table1-u\">Prezzi</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ospitalita_turistica.html#form1-v\">Prenotazione</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Dove siamo</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"home.html\"><span class=\"mbri-left mbr-iconfont mbr-iconfont-btn\"></span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ospitalita_turistica.html#header3-l\">Appartamenti</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ospitalita_turistica.html#pricing-table1-u\">Prezzi</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ospitalita_turistica.html#form1-v\">Prenotazione</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ospitalita_turistica.html#contacts2-g\">Dove siamo e come contattarci</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
         },
         {
           "_tags": [
@@ -1122,14 +912,6 @@
             "Theme"
           ],
           "_name": "form1",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            },
-            "SMALL": {
-              "color": "#000000"
-            }
-          },
           "_anchor": "form1-v",
           "_params": {
             "labelsColor": "#232323",
@@ -1175,7 +957,15 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Invia</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Invia</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            },
+            "SMALL": {
+              "color": "#000000"
+            }
+          }
         },
         {
           "_tags": [
