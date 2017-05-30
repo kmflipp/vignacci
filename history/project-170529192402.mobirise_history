@@ -153,7 +153,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-vignacci-224x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logo_vignacci.gif",
               "height": 128,
               "alt": "Mobirise",
               "link": "main.html",
@@ -947,7 +947,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo-vignacci-224x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logo_vignacci.gif",
               "height": 128,
               "alt": "Mobirise",
               "link": "main.html",
