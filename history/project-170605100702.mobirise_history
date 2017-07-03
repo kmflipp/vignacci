@@ -1,7 +1,7 @@
 {
   "settings": {
-    "name": "Azienda Agricola Vignacci Italiano",
-    "currentPage": "bottega_contadino.html",
+    "name": "Azienda Agricola Vignacci",
+    "currentPage": "main.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -22,16 +22,13 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 53,
+    "uniqCompNum": 51,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "publishFtpPath": "httpdocs/vignacci",
     "publishType": "ftp",
-    "ftpLocation": "ftp://kmflipp@ftp.ediltechsagl.ch:21",
-    "favicon": "@PROJECT_PATH@/assets/images/dsc-0008-128x85.png",
-    "noImageResize": "",
-    "google-analytics": ""
+    "ftpLocation": "ftp://kmflipp@ftp.ediltechsagl.ch:21"
   },
   "pages": {
     "main.html": {
@@ -170,7 +167,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"main.html\"><span class=\"mbri-left mbr-iconfont mbr-iconfont-btn\"></span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"main.html\">English / Deutsch</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ospitalita_turistica.html\">Ospitalità Turistica</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"bottega_contadino.html\">La Bottega del contadino</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"home.html#header3-h\">News</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"home.html#gallery2-1e\">Gallery</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"home.html#contacts2-g\">Dove siamo e come contattarci</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"main.html\"><span class=\"mbri-left mbr-iconfont mbr-iconfont-btn\"></span></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"main.html\">English / Deutsch</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"ospitalita_turistica.html\">Ospitalità Turistica</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"bottega_contadino.html\">La Bottega del contadino</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"home.html#header3-h\">News</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"home.html#gallery2-1c\">Gallery</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"home.html#contacts2-g\">Dove siamo e come contattarci</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_tags": [
@@ -211,7 +208,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/dsc-2-2000x1329.jpg",
+              "src": "@PROJECT_PATH@/assets/images/vignacci_appartamenti_01_zoom-2000x1324.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -230,7 +227,7 @@
             }
           },
           "title": "Ospitalità Turistica",
-          "text": "L' Agriturismo Vignacci nasce nel 2004 forte della storica azienda agricola appartenuta ai nostri avi.<br>Già nel 1920 coltivavano viti, olivi e allevavano bestiame.<br>Oggi forti di decenni di esperienza siamo lieti di mostrarvi quanto siamo riusciti a conservare in fatto di storia, cultura e tradizione!",
+          "text": "L' Agriturismo Vignacci nasce nel 1999 forte della storica azienda agricola appartenuta ai nostri avi.<br>Già nel 1920 coltivavano viti, olivi e allevavano bestiame.<br>Oggi forti di decenni di esperienza siamo lieti di mostrarvi quanto siamo riusciti a conservare in fatto di storia, cultura e tradizione!",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"ospitalita_turistica.html\" data-toolbar=\"-mbrBtnMove\">Entra</a>"
         },
         {
@@ -253,7 +250,7 @@
             "paddingBottom": "1",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/chiostro-2000x1333.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/suvereto1-1-2000x1129.jpg",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
@@ -272,7 +269,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/dsc-1-1400x927.jpg",
+              "src": "@PROJECT_PATH@/assets/images/13932859_917038375088516_194396722219587133_n-1400x1050.jpg",
               "link": "bottega_contadino.html",
               "alt": "",
               "title": "",
@@ -912,20 +909,12 @@
             "Theme"
           ],
           "_name": "header1",
-          "_styles": {
-            ".mbr-section-lead": {
-              "color": "#ffffff"
-            },
-            ".mbr-section-title": {
-              "text-align": "center"
-            }
-          },
           "_anchor": "header1-18",
           "_params": {
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/dsc-2-2000x1324.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/ulena_grano_vignacci-2000x1500.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -940,8 +929,8 @@
             "showText": true,
             "showButtons": true
           },
-          "title": "La Bottega del Contadino<br><br><br>",
-          "text": "",
+          "title": "La Bottega del Contadino",
+          "text": "Fiera contadina in opero nell'azienda agricola Vignacci, Ulena Barsotti ha dato alla vita \"La Bottega del Contadino\", un luogo dove tutte le persone che girano per il borgo di Suvereto possono approfittare dei frutti di una coltivazione biologica (frutta e verdura) e dei prodotti di animali allevati in maniera tradizionale.<br><br>Inoltre le amicizie strette con altri contadini danno la possibilità ai clienti di assaporare quanto di più variegato il territorio può offrire.<br><br>Di seguito è possibile trovare news, ricette, i cavalli di battaglia de \"La Bottega del Contadino\" e la come vengono preparati i prodotti in vendita.<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"bottega_contadino.html#header3-10\" data-toolbar=\"-mbrBtnMove\">News</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"bottega_contadino.html#gallery3-11\" data-toolbar=\"-mbrBtnMove\">Gallery</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"bottega_contadino.html#msg-box5-12\" data-toolbar=\"-mbrBtnMove\">Scopri come lavoriamo</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"bottega_contadino.html#map2-1a\" data-toolbar=\"-mbrBtnMove\">Dove sono</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"bottega_contadino.html#contacts4-17\" data-toolbar=\"-mbrBtnMove\">Contattami</a> "
         },
         {
@@ -1040,6 +1029,26 @@
                 "active": false
               },
               {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ulena-vignacci-bottega-contadino-gallery-3-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/ulena_vignacci_bottega_contadino_gallery-3-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ulena-vignacci-bottega-contadino-gallery-4-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/ulena_vignacci_bottega_contadino_gallery-4-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
                 "tags": "Responsive",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
@@ -1057,146 +1066,6 @@
                 "thumb": "@PROJECT_PATH@/assets/images/ulena-vignacci-bottega-contadino-gallery-6-2000x1500-800x600.jpg",
                 "image": "@PROJECT_PATH@/assets/images/ulena_vignacci_bottega_contadino_gallery-6-2000x1500.jpg",
                 "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-3-2000x1324-800x529.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-3-2000x1324.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-4-2000x1324-800x529.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-4-2000x1324.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-2000x3019-800x1207.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-2000x3019.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-5-2000x1324-800x529.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-5-2000x1324.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-2-2000x1324-800x529.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-2-2000x1324.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-6-2000x1324-800x529.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-6-2000x1324.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-7-2000x1324-800x529.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-7-2000x1324.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-2-2000x3019-800x1207.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-2-2000x3019.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-2000x1324-800x529.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-2000x1324.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-3-2000x3019-800x1207.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-3-2000x3019.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-8-2000x1324-800x529.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-8-2000x1324.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-4-2000x3019-800x1207.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-4-2000x3019.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-9-2000x1324-800x529.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-9-2000x1324.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-10-2000x1324-800x529.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-10-2000x1324.jpg",
-                "caption": "Type caption here",
                 "active": true
               }
             ],
@@ -1209,128 +1078,6 @@
             "showBullets": true
           },
           "_anchor": "gallery3-11",
-          "articleLayout": false,
-          "allItem": "All"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery1",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "images": [
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-5-2000x3019-800x1207.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-5-2000x3019.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-6-2000x3019-800x1207.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-6-2000x3019.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-7-2000x3019-800x1207.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-7-2000x3019.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-8-2000x3019-800x1207.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-8-2000x3019.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-10-2000x3019-800x1207.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-10-2000x3019.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-11-2000x3019-800x1207.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-11-2000x3019.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-11-2000x1324-800x529.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-11-2000x1324.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-12-2000x1324-800x529.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-12-2000x1324.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-13-2000x1324-800x529.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-13-2000x1324.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-14-2000x1324-800x529.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-14-2000x1324.jpg",
-                "caption": "Type caption here",
-                "active": true
-              }
-            ],
-            "spacing": "1",
-            "showText": false,
-            "filter": false,
-            "bgColor": "#635f5f",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
-          },
-          "_anchor": "gallery1-1f",
           "articleLayout": false,
           "allItem": "All"
         },
@@ -1384,7 +1131,7 @@
             }
           },
           "title": "I nostri contadini",
-          "text": "Podere paterno, caseificio formaggi di pecora<br>Azienda Agricola l'olivo d'oro<br>Terre di mario, miele<br>Caseificio la Maremmana<br>Azienda Agricola il Felciaione<br>Azienda Agricola Tua Rita, vino<br>Azienda Agricola tutti i santi<br>Azienda Agricola Il Debbione<br>Azienda Agricola Petricci e Del Pianta<br>Azienda Agricola Umberto Nappini, succhi di fruttta",
+          "text": "Solid color intro with an image on the right side. Also this block has no paddings.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
@@ -1418,7 +1165,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/dsc-2000x1326.jpg",
+              "src": "@PROJECT_PATH@/assets/images/ulena-vignacci-bottega-contadino-gallery-5-2000x1500-800x600.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -1436,8 +1183,8 @@
               "size": 0
             }
           },
-          "title": "Le nostre ricette",
-          "text": "Coming soon!",
+          "title": "Ricette",
+          "text": "Solid color intro with an image on the right side. Also this block has no paddings.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
@@ -1445,7 +1192,7 @@
             "Theme"
           ],
           "_name": "msg-box5",
-          "_anchor": "msg-box5-15",
+          "_anchor": "msg-box5-14",
           "_params": {
             "imageSize": 50,
             "paddingTop": "1",
@@ -1471,7 +1218,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/dsc-13-2000x1324.jpg",
+              "src": "@PROJECT_PATH@/assets/images/ulena-vignacci-bottega-contadino-gallery-2000x1500-800x600.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -1489,8 +1236,8 @@
               "size": 0
             }
           },
-          "title": "I nostri salumi",
-          "text": "Salumi da animali del nosto allevamento, cresciuti all'aperto nel pieno rispetto del benessere animale e trasformati dalle sapienti mani di un maestro salumiere:<br>prosicutto, 1 anno di stagionatura;<br>spalla, 1 anno di stagionatura;<br>rigatino;<br>guanciola;<br>magretta, rigatino sgrassato arrotolato;<br>salame campagnolo di Suvereto, 60 giorni di stagionatura;<br>salamella;<br>lombo e capocollo;<br>salsiccia fresca, stagionata;<br>salsiccia di cinghiale;<br>ammazzafegato, nostra ricetta piccante.",
+          "title": "Cavalli di Battaglia",
+          "text": "Solid color intro with an image on the right side. Also this block has no paddings.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
@@ -1498,7 +1245,7 @@
             "Theme"
           ],
           "_name": "msg-box5",
-          "_anchor": "msg-box5-1g",
+          "_anchor": "msg-box5-15",
           "_params": {
             "imageSize": 50,
             "paddingTop": "1",
@@ -1524,7 +1271,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/dsc-14-2000x1324.jpg",
+              "src": "@PROJECT_PATH@/assets/images/ulena_vignacci_bottega_contadino_gallery-3-2000x1500.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -1542,8 +1289,8 @@
               "size": 0
             }
           },
-          "title": "Le nostre farine di Grano antico",
-          "text": "Maciniamo a pietra alcune varieta' di grano antico da noi prodotto; primo fra tutti il Senator Cappelli con cui quotidianamente facciamo il pane fresco.<br>Fra i grani teneri  spicca il Verna che, prodotto nei nostri terreni fortemente mineralizzati, da una farina ricca di sapori con la quale produciamo tutta una gamma di dolci tradizionali (cantucci, biscotti croccantelli).<br>Venendoci a trovare scopritete anche  la farina di riso della risaia di Grosseto, anche questa macinata a pietra, cosi' come il mais, i ceci, il farro e altre varietà antiche di grano !!",
+          "title": "Preparazione dei prodotti",
+          "text": "Solid color intro with an image on the right side. Also this block has no paddings.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
@@ -1739,7 +1486,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/vignacci-vista-retro-2000x1329-800x531.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/vignacci_vista_appartamenti-2000x1329.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -1755,7 +1502,7 @@
             "showButtons": true
           },
           "title": "Ospitalità nella campagna Toscana",
-          "text": "L'agriturismo Vignacci si compone di 4 graziosi appartamenti ricavati nella casa poderale.<br>Ognuno di essi conta 4 posti letto.&nbsp;Alla necessità nelle camere si può aggiungere un lettino.<br><br>Faranno da cornice ai vostri soggiorni camere climatizzate, TV, angoli cottura, spazio esterno a disposizione per tranquilli momenti di relax e un ampia ed attrezzata piscina.<br>É disponibile anche un piccolo locale lavanderia e un barbecue a uso comune.<br><br>La particolare ubicazione e le dimensioni ridotte della struttura faranno si che possiate trascorrere allegre settimane di vacanza in assoluta tranquillità in armonia con la natura e i suoi ritmi blandi in campagna, a soli 200 mt. dal paese e 10 minuti di auto dal mare.<br>",
+          "text": "L'agriturismo Vignacci si compone di 4 graziosi appartamenti ricavati nella casa poderale.<br>Ognuno di essi conta 4 posti letto.&nbsp;Alla necessità nelle camere si può aggiungere un lettino.<br><br>Faranno da cornice ai vostri soggiorni camere climatizzate, TV, angoli cottura, spazio esterno a disposizione per tranquilli momenti di relax e un ampia ed attrezzata piscina.<br>É disponibile anche un piccolo locale lavanderia e un barbecue a uso comune.<br><br>La particolare ubicazione e le dimensioni ridotte della struttura faranno si che possiate trascorrere allegre settimane di vacanza in assoluta tranquillità in armonia con la natura e i suoi ritmi blandi in campagna, a soli 200 mt. dal paese e pochi chilometri dal mare.<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"ospitalita_turistica.html#header3-l\" data-toolbar=\"-mbrBtnMove\">Appartamenti</a>    <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"ospitalita_turistica.html#pricing-table1-u\" data-toolbar=\"-mbrBtnMove\">Prezzi</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"ospitalita_turistica.html#form1-v\" data-toolbar=\"-mbrBtnMove\">Prenotazione</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"ospitalita_turistica.html#contacts2-g\" data-toolbar=\"-mbrBtnMove\">Dove siamo e come contattarci</a> "
         },
         {
@@ -1796,10 +1543,20 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/appa1-2000x1500-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/appa1-2000x1500.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/vignacci-appartamento-1-cucina-2000x1329-800x531.jpg",
                 "image": "@PROJECT_PATH@/assets/images/vignacci_appartamento_1_cucina-2000x1329.jpg",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Animated",
