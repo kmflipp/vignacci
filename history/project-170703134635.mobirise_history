@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Azienda Agricola Vignacci - Italiano",
-    "currentPage": "ospitalita_turistica.html",
+    "currentPage": "bottega_contadino.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -83,7 +83,7 @@
     },
     "home.html": {
       "settings": {
-        "title": "Azienda Agricola Vignacci",
+        "title": "",
         "meta_descr": "",
         "order": 1
       },
@@ -818,7 +818,7 @@
     },
     "bottega_contadino.html": {
       "settings": {
-        "title": "La Bottega del Contadino",
+        "title": "",
         "meta_descr": "",
         "order": 2
       },
@@ -1395,14 +1395,6 @@
             "Theme"
           ],
           "_name": "msg-box5",
-          "_styles": {
-            "H3": {
-              "color": "#efefef"
-            },
-            "P": {
-              "color": "#efefef"
-            }
-          },
           "_anchor": "msg-box5-13",
           "_params": {
             "imageSize": 50,
@@ -1449,7 +1441,15 @@
           },
           "title": "Le nostre ricette",
           "text": "Coming soon!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_styles": {
+            "H3": {
+              "color": "#efefef"
+            },
+            "P": {
+              "color": "#efefef"
+            }
+          }
         },
         {
           "_tags": [
@@ -1509,14 +1509,6 @@
             "Theme"
           ],
           "_name": "msg-box5",
-          "_styles": {
-            "H3": {
-              "color": "#efefef"
-            },
-            "P": {
-              "color": "#efefef"
-            }
-          },
           "_anchor": "msg-box5-1g",
           "_params": {
             "imageSize": 50,
@@ -1563,7 +1555,15 @@
           },
           "title": "Le nostre farine di Grano antico",
           "text": "Maciniamo a pietra alcune varieta' di grano antico da noi prodotto; primo fra tutti il Senator Cappelli con cui quotidianamente facciamo il pane fresco.<br>Fra i grani teneri  spicca il Verna che, prodotto nei nostri terreni fortemente mineralizzati, da una farina ricca di sapori con la quale produciamo tutta una gamma di dolci tradizionali (cantucci, biscotti croccantelli).<br>Venendoci a trovare scopritete anche  la farina di riso della risaia di Grosseto, anche questa macinata a pietra, cosi' come il mais, i ceci, il farro e altre varietà antiche di grano !!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_styles": {
+            "H3": {
+              "color": "#efefef"
+            },
+            "P": {
+              "color": "#efefef"
+            }
+          }
         },
         {
           "_tags": [
@@ -1657,7 +1657,7 @@
     },
     "ospitalita_turistica.html": {
       "settings": {
-        "title": "Ospitalità Turistica",
+        "title": "",
         "meta_descr": "",
         "order": 3
       },
